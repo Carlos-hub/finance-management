@@ -25,7 +25,7 @@ export function MenuItem(props:IProps){
         </div>)
         :
         (
-        <div>
+        <div className={props.classStyle}>
             {props.icon}
         </div>
         )
